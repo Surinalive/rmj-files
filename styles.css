@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.introduction {
+    background-color: black;
+}
+
+.meet_greet {
+    display: flex;
+    justify-content: space-between;
+}
+
+.R {
+    color: aqua;
+}
+
+.M {
+    color: deeppink;
+}
+
+.J {
+    color: darkorange;
+}
+
+.swear {
+    color: red;
+}
+
+.channelDes {
+    color: green
+}
+
+.note {
+    color: yellow;
+}
