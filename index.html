@@ -1,66 +1,120 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The RMJ Files</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="javascript.js" defer></script>
+  </head>
 
-<body>
-    <div class="introduction">
-        <p> Three friends. One internet connection. Endless multiplayer chaos.</p>
-        <p> Welcome to The RMJ Files, where three online friends jump into games,
-            talk trash, make questionable plays, and figure out what’s actually worth playing.</p>
-        <p> From co-op classics to brand-new multiplayer mayhem, we’ll play it, review it, and probably
-            argue about it along the way. Expect honest opinions, terrible decisions, good laughs, clutch
-            moments, and plenty of chaos. If you’re into multiplayer games you can play with friends and watching three
-            people try to work together without completely losing it, you’re in the right place.</p>
-        <p> New videos weekly(?) "Like where???" - Rina</p>
-        <p> Three friends. One squad. Zero coordination.</p>
-        <p> This is THE RMJ Files. Let the chaos begin. </p>
-    </div>
+  <body>
+    <nav>
+      <h2 class="name">The RMJ Files</h2>
+      <button class="tab active" data-panel="intro">Intro</button>
+      <button class="tab" data-panel="meet_greet">Meet Us!</button>
+      <button class="tab" data-panel="solo">Solo</button>
+      <button class="tab" data-panel="duos">Duos</button>
+      <button class="tab" data-panel="trios">Trios</button>
+    </nav>
 
+    <section id="intro" class="panel active">
+      <p>Three friends. One internet connection. Endless multiplayer chaos.</p>
+      <p>
+        Welcome to The RMJ Files, where three online friends jump into games,
+        talk trash, make questionable plays, and figure out what’s actually
+        worth playing.
+      </p>
+      <p>
+        From co-op classics to brand-new multiplayer mayhem, we’ll play it,
+        review it, and probably argue about it along the way. Expect honest
+        opinions, terrible decisions, good laughs, clutch moments, and plenty of
+        chaos. If you’re into multiplayer games you can play with friends and
+        watching three people try to work together without completely losing it,
+        you’re in the right place.
+      </p>
+      <p>New videos weekly.</p>
+      <p>Three friends. One squad. Zero coordination.</p>
+      <p>This is THE RMJ Files. Let the chaos begin.</p>
 
-    <div class="meet_greet">
-        <div class = "R">
-            <p> Hi, I'm Rina and I ....</p>
-        </div>
-        <div class="M">
-            <p> Hi, I'm Mari and I ...</p>
-        </div>
-        <div class="J">
-            <p class="J"> Hi, I'm J and I ...</p>
-        </div>
-        
-    </div>
+      <p>
+        Here is a bunch of videos we've recorded and uploaded on Youtube! As
+        this is a bunch of young adults, videos where you can expect a bit of
+        swearing are colored red. To combat the swearing, we are also
+        implimenting a swear jar! 5 swears and you have to take one for the team
+        in the next horror game!
+      </p>
+      <p class="note">
+        *Note to add links to youtube channel ->
+        http://www.youtube.com/@TheRMJFiles
+      </p>
+    </section>
 
-    <p>Here is a bunch of videos we've recorded and uploaded on Youtube! As this is a bunch of young adults,
-        videos where you can expect a bit of swearing are colored red. To combat the swearing, we are also
-        implimenting a swear jar! 5 swears and you have to take one for the team in the next horror game!
-    </p>
-    <p class="note">
-        *Note to add links to youtube channel -> http://www.youtube.com/@TheRMJFiles
-    </p>
-    <ul>
-        <li class="youtubeLink">
-            <p class="channelDes"> Watch us run around screaming as we try to escape monsters in various locations as we
-                try to
-                <a class="swear" href="" target="_blank" rel="noreferrer">100% Panicore</a>!
+    <section id="meet_greet" class="panel">
+      <h4>meet and greet</h4>
+      <div class="R">
+        <p>Hi, I'm Rina and I ....</p>
+      </div>
+      <div class="M">
+        <p>Hi, I'm Mari and I ...</p>
+      </div>
+      <div class="J">
+        <p>Hi, I'm J and I ...</p>
+      </div>
+    </section>
+
+    <section id="solo" class="panel">
+      <p>Here are vidoes of our solo adventures!</p>
+      <div class="R">
+        <p>Insert des of videos</p>
+        <ul>
+          <li class="youtubeLink">
+            <p class="channelDes">
+              Watch me (and any random sib who wants to joins) try to
+              <a href="" target="_blank" rel="noreferrer">100% CotL + DLC</a>!!
             </p>
-        </li>
-        <li class="youtubeLink">
-            <p class="channelDes"> Watch me (and any random sib who wants to joins) try to
-                <a href="" target="_blank" rel="noreferrer">100% CotL + DLC</a>!!
+          </li>
+          <li class="youtubeLink">
+            <p class="channelDes">
+              Watch me try to complete random challenges in
+              <a href="" target="_blank" rel="noreferrer">Rimworld</a>!
             </p>
-        </li>
-        <li class="youtubeLink">
-            <p class="channelDes"> Watch me try to complete random challenges in
-                <a href="" target="_blank" rel="noreferrer">Rimworld</a>!
-            </p>
-        </li>
-    </ul>
-</body>
+          </li>
+        </ul>
+      </div>
+      <div class="M">
+        <p>Insert des of videos</p>
+      </div>
+      <div class="J">
+        <p>Insert des of videos</p>
+      </div>
+    </section>
 
+    <section id="duos" class="panel">
+      <ul>
+        <li class="youtubeLink">
+          <p class="channelDes">
+            Watch us run around screaming as we try to escape monsters in
+            various locations as we try to
+            <a class="swear" href="" target="_blank" rel="noreferrer"
+              >100% Panicore</a
+            >!
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section id="trios" class="panel">
+      <ul>
+        <li class="youtubeLink">
+          <p class="channelDes">
+            Watch us run around screaming as we try to escape monsters in
+            various locations as we try to
+            <a class="swear" href="" target="_blank" rel="noreferrer"
+              >100% Panicore</a
+            >!
+          </p>
+        </li>
+      </ul>
+    </section>
+  </body>
 </html>

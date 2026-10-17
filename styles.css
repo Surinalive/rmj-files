@@ -1,42 +1,101 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: black;
-    color: white;
-    padding: 30px;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
-.introduction {
-    text-align: center;
+nav {
+  border-bottom: 1px solid white;
+  padding: 0px 1px;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5px;
+}
+
+.name {
+  margin-right: auto;
+}
+
+button {
+  background-color: black;
+  color: white;
+}
+
+.tab {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  border: 1px solid white;
+  border-radius: 0.4rem 0.4rem 0 0;
+  margin-bottom: -1px;
+  padding: 4px 4px;
+}
+
+.tab.active {
+  background-color: black;
+  border-bottom-color: black;
+}
+
+.panel {
+  display: none;
+}
+
+.panel.active {
+  display: flex;
+  flex-direction: column;
+  animation: fade-in 0.25s ease;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#intro {
+  text-align: center;
 }
 
 .meet_greet {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .R {
-    color: aqua;
+  color: aqua;
 }
 
 .M {
-    color: deeppink;
+  color: deeppink;
 }
 
 .J {
-    color: darkorange;
+  color: darkorange;
 }
 
 .swear {
-    color: red;
+  color: red;
 }
 
 .channelDes {
-    color: green
+  color: green;
 }
 
 .note {
-    color: yellow;
+  color: yellow;
+}
+
+section {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
 }
