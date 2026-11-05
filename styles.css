@@ -63,11 +63,27 @@ button {
 
 #intro {
   text-align: center;
+  padding: 12px;
 }
 
-.meet_greet {
-  display: flex;
-  justify-content: space-between;
+#meet_greet {
+  text-align: left;
+  padding: 12px;
+}
+
+#solo {
+  text-align: left;
+  padding: 12px;
+}
+
+#duos {
+  text-align: left;
+  padding: 12px;
+}
+
+#trios {
+  text-align: left;
+  padding: 12px;
 }
 
 .R {
@@ -80,6 +96,10 @@ button {
 
 .J {
   color: darkorange;
+}
+
+.link {
+  color: hotpink;
 }
 
 .swear {
